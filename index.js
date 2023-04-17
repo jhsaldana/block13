@@ -13,19 +13,19 @@ if(truthy === "I am a string") {
 
 //question two: Number Line
 //take the sum of two numbers
-let sum = 50 + 51;
+let sum = -1000 + 0;
 //print corresponding result using if/else if/else statements
 //if sum is less than -1000
-if (sum<-1000) {
-    console.log (" sum is less than -1000");
-    } else if (sum<1) {
-        console.log ("sum is a negative number");
-    } else if (sum=0) {
-        console.log ("sum is equal to 0");
-    } else if (sum>0) {
-        console.log ("sum is larger than 0");
-    } else if (sum>100) {
-        console.log ("sum is greater than 100");
+if (sum < -1000) {
+    console.log (sum + " is less than -1000");
+    } else if (sum < -1) {
+        console.log (sum + " is a negative number");
+    } else if (sum = 0) {
+        console.log (sum + " is equal to 0");
+    } else if (sum > 1) {
+        console.log (sum + " is larger than 0");
+    } else if (sum > 100) {
+        console.log (sum + " is greater than 100");
     }
 
 
